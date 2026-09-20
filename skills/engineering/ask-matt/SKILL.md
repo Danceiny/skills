@@ -50,6 +50,7 @@ A starting situation that generates work, then merges onto the main flow.
 Not feature work — upkeep.
 
 - **`/improve-codebase-architecture`** — run whenever you have a spare moment to keep the codebase good for agents to operate in. It surfaces **deepening opportunities**; picking one _generates an idea_ you can take into the main flow at `/grill-with-docs`. It's the survey that finds the candidates; **`/codebase-design`** (below) is the bench you design the chosen one on.
+- **`/git-declutter`** — repo hygiene, not code hygiene: branch and worktree sprawl cleaned up **losslessly** — every to-be-deleted branch tip is first consolidated into one archive commit on the remote, so any branch stays recoverable with `git branch <name> <sha>`. Run it when `git branch` stops fitting on one screen, or a multi-agent stretch leaves worktrees and dead branches everywhere.
 
 ## Vocabulary underneath
 

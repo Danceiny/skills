@@ -1,0 +1,3 @@
+interface:
+  display_name: "Git Declutter"
+  short_description: "Losslessly clean up branches and worktrees"
