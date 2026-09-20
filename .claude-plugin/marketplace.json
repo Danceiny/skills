@@ -1,22 +1,22 @@
 {
-  "name": "mattpocock",
+  "name": "danceiny",
   "owner": {
-    "name": "Matt Pocock",
-    "url": "https://www.aihero.dev"
+    "name": "Danceiny",
+    "url": "https://github.com/Danceiny"
   },
-  "description": "Matt Pocock's skills for real engineering, as an installable Claude Code plugin.",
+  "description": "Danceiny's agent skills for real engineering, as an installable Claude Code plugin.",
   "plugins": [
     {
-      "name": "mattpocock-skills",
+      "name": "danceiny-skills",
       "source": "./",
-      "description": "Matt Pocock's agent skills for real engineering (grilling, spec/ticket flows, TDD, code review, domain modelling and more).",
+      "description": "Danceiny's agent skills for real engineering — grilling, spec/ticket flows, TDD, code review, domain modelling, lossless git hygiene and more.",
       "category": "engineering",
       "keywords": [
         "engineering",
         "skills",
         "tdd",
         "code-review",
-        "grilling"
+        "git"
       ]
     }
   ]

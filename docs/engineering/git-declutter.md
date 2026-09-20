@@ -18,7 +18,7 @@ Cleans up git branch and worktree sprawl without losing a single commit. It tria
 
 Type `/git-declutter`, or the agent reaches for it automatically when a task fits — the moment branch sprawl, stale remote branches, worktree litter, or git eating your disk shows up.
 
-Reach for it when `git branch` stops fitting on one screen, when a cleanup session (or three coding agents) has left dozens of dead worktrees behind, or when you want old remote branches gone *without* betting that nobody ever needs those commits again. For untangling an in-progress merge instead, use [resolving-merge-conflicts](https://aihero.dev/skills-resolving-merge-conflicts).
+Reach for it when `git branch` stops fitting on one screen, when a cleanup session (or three coding agents) has left dozens of dead worktrees behind, or when you want old remote branches gone *without* betting that nobody ever needs those commits again. For untangling an in-progress merge instead, use [resolving-merge-conflicts](./resolving-merge-conflicts.md).
 
 ## Prerequisites
 
@@ -46,4 +46,4 @@ The bundled `scripts/consolidate-branches.sh` automates the remote half — dry-
 
 ## Where it fits
 
-Periodic **maintenance** — the repo-hygiene sibling of [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture) (which improves the code; this reclaims the space around it), typically run after a heavy multi-agent stretch or before a release. The full map of skills lives in [ask-matt](https://aihero.dev/skills-ask-matt).
+Periodic **maintenance** — the repo-hygiene sibling of [improve-codebase-architecture](./improve-codebase-architecture.md) (which improves the code; this reclaims the space around it), typically run after a heavy multi-agent stretch or before a release. The full map of skills lives in [ask-skills](./ask-skills.md).
